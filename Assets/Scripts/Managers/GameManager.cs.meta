@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6026f4f888ad25b4ca35c76048ce0c84
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerPrefab: {fileID: 155426021429301085, guid: cc1fdfc73f660b348b2a0cd569e2f791, type: 3}
+  - aIPrefab: {fileID: 5916361158265397928, guid: 850a45b6a2f18ff4d967e8fbb454cb6a, type: 3}
+  - markPrefab: {fileID: 4846562985750572492, guid: 69f6123b31727644d83feee6aaa5c970, type: 3}
+  - actorsTransform: {instanceID: 0}
+  - board: {instanceID: 0}
+  - boardControl: {instanceID: 0}
+  - boardCalculator: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

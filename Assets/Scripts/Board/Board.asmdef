@@ -1,0 +1,16 @@
+{
+    "name": "Board",
+    "rootNamespace": "",
+    "references": [
+        "GUID:850a2477603043e4bb52362e73da315c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
