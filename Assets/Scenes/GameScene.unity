@@ -2457,7 +2457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 383b0af5375339943a5f9d26e2aa3195, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winningLength: 0
+  winningLength: 4
 --- !u!1 &850128330
 GameObject:
   m_ObjectHideFlags: 0
@@ -3582,7 +3582,7 @@ MonoBehaviour:
   board: {fileID: 837273378}
   boardControl: {fileID: 837273379}
   boardCalculator: {fileID: 837273380}
-  gameMode: 2
+  gameMode: 0
   actors: []
 --- !u!114 &1342020194
 MonoBehaviour:
