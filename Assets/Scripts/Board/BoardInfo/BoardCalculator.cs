@@ -63,6 +63,10 @@ public class BoardCalculator : MonoBehaviour {
 
     private void Start() {
         board = GetComponent<Board>();
+        if (winningLength <= 2) {
+            Debug.LogError($"{winningLength} is too short for a game. It is now 1");
+            winningLength = 2;
+        }
     }
 
     public void Initialize(int pWinningLength) {

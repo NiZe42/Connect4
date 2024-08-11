@@ -110,7 +110,7 @@ public class AI : Actor {
         Vector2 boardCenter = new Vector2((board.GetHorizontalTileCount() - 1) / 2f, (board.GetVerticalTileCount() - 1) / 2f);
         foreach (GridIndex possibleMove in possibleMoves) {
             float currentCenterIndex = Mathf.Abs(boardCenter.x - possibleMove.columnIndex) + Mathf.Abs(boardCenter.y - possibleMove.tileIndex);
-            Debug.Log($"({possibleMove.columnIndex}; {possibleMove.tileIndex}): {currentCenterIndex}");
+            //Debug.Log($"({possibleMove.columnIndex}; {possibleMove.tileIndex}): {currentCenterIndex}");
             if (currentCenterIndex < centerIndex) {
                 centerIndex = currentCenterIndex;
                 closestIndex = possibleMove;
